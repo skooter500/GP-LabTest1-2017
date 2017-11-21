@@ -7,7 +7,11 @@
 - No conferring or collaboration.
 - No use of Google, Facebook or any any other web resources permitted.
 
-- Make sure your zip file is named like D111111_Bryan_Duggan.zip (replace with your student number and name)
+## Useful references:
+
+- [The Processing reference](https://processing.org/reference/)
+- [The course website](https://github.com/skooter500/GP-2017-2018)
+- [Google Classroom](http://classroom.google.com)
 
 ## Instructions
 
@@ -21,11 +25,11 @@ What is happening:
 
 - The key and player spawn at random positions in the bottom half of the screen
 - The player character is controlled with the up, down, left and right keys
-- The star positions are stored in 2 arrays of floats. You should give these initial values in the setup function and draw them in the draw function
+- The star positions are stored in 2 arrays of floats (one for x and one for y). You should give these initial values in the setup function and draw them in the draw function.
 - The door of the house is drawn in red initially. The player should collect the key and then go to the door.
 - When the player has the key and arrives at the door it should be drawn in black to indicate that it is open and the key should reappear randomly in the bottom half of the screen
-- You might want to use the Processing [dist](https://processing.org/reference/dist_.html) function to check if the player picks up the key or arrives at the door.
-- A message is shown in the top left of the screen that indicates what the player should do next
+- You might want to use the Processing [dist](https://processing.org/reference/dist_.html) function to check if the player picks up the key or arrives at the door. This calculates the distance between two points and you can check if the distance is < 20
+- A message is shown in the top left of the screen that indicates what the player should do next. Use the [text](https://processing.org/reference/text_.html) function for this.
 - To get full marks in the test, you should use variables and functions in your solution
 - When you are finished, zip your sketch folder up and rename the zip file to be D111111_Bryan_Duggan. *Replace D111111 with your student number and Bryan_Duggan with your own name*.
  - Enrole in the module Game Programming on Google Classroom using the code s3n06gw and submit your zip file through the assignment Game Programming Lab Test 1.
