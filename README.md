@@ -7,6 +7,8 @@
 - No conferring or collaboration.
 - No use of Google, Facebook or any any other web resources permitted.
 
+- [Solution](https://github.com/skooter500/GP_Lab_Test_1_2017)
+
 ## Useful references:
 
 - [The Processing reference](https://processing.org/reference/)
